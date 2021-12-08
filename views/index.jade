@@ -1,58 +1,59 @@
 extends layout
 
 block content
-  p
-    | Metodo: 
-    b GET
-  p
-    | Rota: 
-    b /:id
-  p
-    | Retorna: 
-    b livro com id especificado
-  br
-  p
-    | Metodo: 
-    b GET
-  p
-    | Rota: 
-    b /all
-  p
-    | Retorna: 
-    b todos os livros
-  br
-  p
-    | Metodo: 
-    b POST
-  p
-    | Rota: 
-    b /
-  p
-    | Body: 
-    b livro em json (sem id)
-  p
-    | Retorna: 
-    b livro em json (com id)
-  br
-  p
-    | Metodo: 
-    b PATCH
-  p
-    | Rota: 
-    b /:id
-  p
-    | Body: 
-    b livro alterado em json (sem id)
-  p
-    | Retorna: 
-    b livro alterado livro em json (com id)
-  br
-  p
-    | Metodo: 
-    b DELETE
-  p
-    | Rota: 
-    b /:id
-  p
-    | Retorna: 
-    b livro deletado
+  .sec
+      p
+        | Metodo: 
+        b GET
+      p
+        | Rota: 
+        b /:id
+      p
+        | Retorna: 
+        b livro com id especificado
+  .sec
+      p
+        | Metodo: 
+        b GET
+      p
+        | Rota: 
+        b /all
+      p
+        | Retorna: 
+        b todos os livros
+  .sec
+      p
+        | Metodo: 
+        b POST
+      p
+        | Rota: 
+        b /
+      p
+        | Body: 
+        b livro em json (sem id)
+      p
+        | Retorna: 
+        b livro em json (com id)
+  .sec
+      p
+        | Metodo: 
+        b PATCH
+      p
+        | Rota: 
+        b /:id
+      p
+        | Body: 
+        b livro alterado em json (sem id)
+      p
+        | Retorna: 
+        b livro alterado livro em json (com id)
+  .sec
+      p
+        | Metodo: 
+        b DELETE
+      p
+        | Rota: 
+        b /:id
+      p
+        | Retorna: 
+        b livro deletado

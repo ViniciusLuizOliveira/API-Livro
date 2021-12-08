@@ -1,8 +1,23 @@
 body {
-  padding: 50px;
+  padding: 60px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: black;
 }
 
 a {
   color: #00B7FF;
 }
+p {
+  font-size: 16px;
+  color: white;
+}
+.sec{
+  border: solid 1px purple;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+b{
+  color: yellow
+}
+
